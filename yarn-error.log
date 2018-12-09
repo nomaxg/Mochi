@@ -1,0 +1,55 @@
+Arguments: 
+  /usr/local/Cellar/node/10.8.0/bin/node /usr/local/Cellar/yarn/1.9.2/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/ngolub/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.9.2
+
+Node version: 
+  10.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/ngolub/Library/Caches/Yarn/v1/npm-istanbul-lib-coverage-1.2.1-ccf7edcd0a0bb9b8f729feeb0930470f9af664f0/.yarn-metadata.json: Unexpected token  in JSON at position 4101
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.9.2/libexec/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.9.2/libexec/lib/cli.js:92:30)
+      at /usr/local/Cellar/yarn/1.9.2/libexec/lib/cli.js:103:13
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "eject": "expo eject",
+      "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "@expo/samples": "2.1.1",
+      "expo": "^31.0.2",
+      "react": "16.5.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
+      "react-navigation": "^2.18.2"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^5.0.0",
+      "jest-expo": "^31.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
